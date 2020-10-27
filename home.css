@@ -1,0 +1,112 @@
+.section1{
+    background-image: url('./images/sampleimg.png');
+    background-size: cover;
+    
+    min-height: 100vh;
+    padding: 2%;
+    color: white;
+}
+
+
+div hr{
+    width: 40%;
+    height: 2px;
+    
+    background: black;
+    transition: ease-in 0.3s;
+    
+}
+
+hr:hover{
+    width: 80px;
+    
+    min-height:5px;
+    transition: ease-in 0.3s;
+    
+    
+    
+}
+#hr1:hover::after{
+    color:red;
+    content: "Discipline";
+}
+#hr2:hover::after{
+    color:red;
+    content: "Vision";
+}
+#hr3:hover::after{
+    color: red;
+    content: "Interpretation";
+}
+#hr4:hover::after{
+    color: red;
+    content: "Intelligence";
+}
+#hr5:hover::after{
+    color:red;
+    content: "Imagination";
+}
+#hr6:hover::after{
+    color: red;
+    content: "Execution";
+}
+#hr7:hover::after{
+    color: red;
+    content: "Balance";
+}
+#hr2:hover::after{
+    color: red;
+    content: "Determination";
+}
+#hr8:hover::after{
+    color: red;
+    content: "Concentration";
+}
+#hr9:hover::after{
+    color: red;
+    content: "Confidence";
+}
+.section1 ul li{
+    list-style: none;
+}
+
+.hor-line{
+    width: 75px;
+    min-height: 4px;
+    background-color: white;
+}
+.margin1{
+    margin-left: 40px;
+}
+.col2{
+    color: black;
+    padding-top: 120px;
+    
+    font-weight: bolder;
+    font-size: xx-large;
+    font-stretch: expanded;
+    
+}
+.col3{
+    padding-top: 20px;
+}
+.med-button{
+    width: 100px;
+    height: 30px;
+}
+/*.but1:hover{
+    animation-name: example;
+    animation-duration: 3s;
+}
+@keyframes example{
+
+    50% {background-color: black;}
+    100%{background-color: black;}
+}*/
+#hr1,hr:hover{
+    color: black;
+}
+.input1{
+    margin-top: 200px;
+    width: 100%;
+}
